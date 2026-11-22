@@ -1,0 +1,58 @@
+{
+  "config": {
+    "flow_title": "{name}",
+    "step": {
+      "user": {
+        "title": "Tisch auswählen",
+        "data": {
+          "address": "Tisch"
+        }
+      },
+      "confirm": {
+        "description": "{name} einrichten?"
+      }
+    },
+    "abort": {
+      "no_devices_found": "Kein Tisch gefunden. Tisch muss eingeschaltet und in Reichweite eines Bluetooth-Adapters/Proxys sein und darf nicht mit der Handy-App verbunden sein.",
+      "already_configured": "Tisch ist bereits eingerichtet."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Tisch-Optionen",
+        "data": {
+          "sit_height": "Sitzhöhe (cm)",
+          "stand_height": "Stehhöhe (cm)",
+          "idle_timeout": "Trennen nach Leerlauf (Sekunden, 0 = Verbindung halten)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "height": {
+        "name": "Höhe"
+      }
+    },
+    "button": {
+      "sit": {
+        "name": "Sitzen"
+      },
+      "stand": {
+        "name": "Stehen"
+      },
+      "stop": {
+        "name": "Stopp"
+      }
+    },
+    "number": {
+      "sit_height": {
+        "name": "Sitzhöhe"
+      },
+      "stand_height": {
+        "name": "Stehhöhe"
+      }
+    }
+  }
+}

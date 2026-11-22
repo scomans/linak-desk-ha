@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Build output and local-only material
+dist/
+_private/
+*.zip
+
+# Local tooling caches
+/graft/
+.ignore
+.trail/

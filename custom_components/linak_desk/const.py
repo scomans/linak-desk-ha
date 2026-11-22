@@ -1,0 +1,8 @@
+DOMAIN = "linak_desk"
+CONF_SIT_CM = "sit_height"
+CONF_STAND_CM = "stand_height"
+CONF_IDLE_TIMEOUT = "idle_timeout"
+DEFAULT_SIT_CM = 72.0
+DEFAULT_STAND_CM = 110.0
+DEFAULT_IDLE_TIMEOUT = 20
+REFRESH_INTERVAL_MIN = 15

@@ -1,0 +1,58 @@
+{
+  "config": {
+    "flow_title": "{name}",
+    "step": {
+      "user": {
+        "title": "Choose desk",
+        "data": {
+          "address": "Desk"
+        }
+      },
+      "confirm": {
+        "description": "Set up {name}?"
+      }
+    },
+    "abort": {
+      "no_devices_found": "No desks found. Make sure the desk is powered and in range of a Bluetooth adapter or proxy, and not connected to the phone app.",
+      "already_configured": "Desk is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Desk options",
+        "data": {
+          "sit_height": "Sitting height (cm)",
+          "stand_height": "Standing height (cm)",
+          "idle_timeout": "Disconnect after idle seconds (0 = stay connected)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "height": {
+        "name": "Height"
+      }
+    },
+    "button": {
+      "sit": {
+        "name": "Sit"
+      },
+      "stand": {
+        "name": "Stand"
+      },
+      "stop": {
+        "name": "Stop"
+      }
+    },
+    "number": {
+      "sit_height": {
+        "name": "Sitting height"
+      },
+      "stand_height": {
+        "name": "Standing height"
+      }
+    }
+  }
+}
